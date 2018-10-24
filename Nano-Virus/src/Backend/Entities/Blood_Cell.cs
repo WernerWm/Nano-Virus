@@ -8,44 +8,44 @@ namespace Nano_Virus.src.Backend.Entities
 {
     public class Blood_Cell : Cell
     {
-        private bool hasNucleus;
-        private bool hasHemoglobin;
-        private bool isCarryingOxygen;
-        private bool isInfected;
+        private string color;
+        private string type;
 
-        public Blood_Cell(string xCoordinateParam, string yCoordinateParam, string zCoordinateParam, bool hasNucleusParam, bool hasHemoglobinParam, bool isCarryingOxygenParam, bool isInfectedParam) 
-            : base(xCoordinateParam, yCoordinateParam, zCoordinateParam)
-        {
-            this.HasNucleus = hasNucleusParam;
-            this.HasHemoglobin = hasNucleusParam;
-            this.IsCarryingOxygen = isInfectedParam;
-            this.IsInfected = isInfectedParam;
-        }
         public Blood_Cell()
         {
-
         }
 
-        public bool HasNucleus
+        public Blood_Cell(string xCoordinateParam, string yCoordinateParam, string zCoordinateParam, string colorParam, string typeParam) : base(xCoordinateParam, yCoordinateParam, zCoordinateParam)
         {
-            get { return hasNucleus; }
-            set { hasNucleus = value; }
-        }
-        public bool HasHemoglobin
-        {
-            get { return hasHemoglobin; }
-            set { hasHemoglobin = value; }
-        }
-        public bool IsCarryingOxygen
-        {
-            get { return isCarryingOxygen; }
-            set { isCarryingOxygen = value; }
+            this.Color = colorParam;
+            this.Type = typeParam;
         }
 
-        public bool IsInfected
+        public string Type
         {
-            get { return isInfected; }
-            set { isInfected = value; }
+            get { return type; }
+            set { type = value; }
+        }
+
+        public string Color
+        {
+            get { return color; }
+            set { color = value; }
+        }
+
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+
+        public override string ToString()
+        {
+            return base.ToString();
         }
 
     }

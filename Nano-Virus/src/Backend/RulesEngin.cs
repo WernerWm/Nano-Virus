@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Nano_Virus.src.Backend
 {
-    class Rules
+    public class RulesEngin
     {
     }
 }

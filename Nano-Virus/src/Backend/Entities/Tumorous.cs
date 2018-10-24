@@ -8,16 +8,14 @@ namespace Nano_Virus.src.Backend.Entities
 {
     public class Tumorous : Cell
     {
-        private int total;
         private string color;
 
         public Tumorous()
         {
         }
 
-        public Tumorous(string xCoordinateParam, string yCoordinateParam, string zCoordinateParam, int totalParam, string colorParam) : base(xCoordinateParam, yCoordinateParam, zCoordinateParam)
+        public Tumorous(string xCoordinateParam, string yCoordinateParam, string zCoordinateParam, string colorParam) : base(xCoordinateParam, yCoordinateParam, zCoordinateParam)
         {
-            this.Total = totalParam;
             this.Color = colorParam;
         }
 
@@ -25,12 +23,6 @@ namespace Nano_Virus.src.Backend.Entities
         {
             get { return color; }
             set { color = value; }
-        }
-
-        public int Total
-        {
-            get { return total; }
-            set { total = value; }
         }
 
         public override bool Equals(object obj)

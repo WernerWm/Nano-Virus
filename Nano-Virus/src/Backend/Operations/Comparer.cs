@@ -6,19 +6,13 @@ using System.Threading.Tasks;
 
 namespace Nano_Virus.src.Backend.Operations
 {
-    public class Mover : IMover
+    public class Comparer : IComparer
     {
-        public void MoveNVCCell()
+        public void CompareStates()
         {
 
         }
-
-        public void KillTC()
-        {
-
-        }
-
-        public void ReplicateNC()
+        public void CompareOptimalSolutions()
         {
 
         }

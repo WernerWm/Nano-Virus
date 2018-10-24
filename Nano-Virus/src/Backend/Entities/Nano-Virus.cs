@@ -8,7 +8,6 @@ namespace Nano_Virus.src.Backend.Entities
 {
     public class Nano_Virus : Cell
     {
-        private int total;
         private bool isReplicated;
         private string color;
 
@@ -17,10 +16,9 @@ namespace Nano_Virus.src.Backend.Entities
 
         }
 
-        public Nano_Virus(string xCoordinateParam, string yCoordinateParam, string zCoordinateParam, int totalParam, bool isReplicatedParam, string colorParam)
+        public Nano_Virus(string xCoordinateParam, string yCoordinateParam, string zCoordinateParam, bool isReplicatedParam, string colorParam)
             : base(xCoordinateParam, yCoordinateParam, zCoordinateParam)
         {
-            this.Total = totalParam;
             this.isReplicated = isReplicatedParam;
             this.Color = colorParam;
         }
@@ -35,12 +33,6 @@ namespace Nano_Virus.src.Backend.Entities
         {
             get { return isReplicated; }
             set { isReplicated = value; }
-        }
-
-        public int Total
-        {
-            get { return total; }
-            set { total = value; }
         }
 
         public override bool Equals(object obj)

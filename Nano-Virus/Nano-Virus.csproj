@@ -48,10 +48,8 @@
     <Compile Include="src\Backend\Entities\Board.cs" />
     <Compile Include="src\Backend\Entities\Cell.cs" />
     <Compile Include="src\Backend\Entities\Nano-Virus.cs" />
-    <Compile Include="src\Backend\Entities\Red-Blood.cs" />
     <Compile Include="src\Backend\Entities\Session.cs" />
     <Compile Include="src\Backend\Entities\Tumorous.cs" />
-    <Compile Include="src\Backend\Entities\White-Blood.cs" />
     <Compile Include="src\Backend\Filehandler\Filehandler.cs" />
     <Compile Include="src\Backend\Handlers\IPositionHandler.cs" />
     <Compile Include="src\Backend\Handlers\PositionHandler.cs" />
@@ -61,12 +59,16 @@
     <Compile Include="src\Backend\Managers\RuleManager.cs" />
     <Compile Include="src\Backend\Managers\ValidatorManager.cs" />
     <Compile Include="src\Backend\Operations\Calculations.cs" />
+    <Compile Include="src\Backend\Operations\Comparer.cs" />
+    <Compile Include="src\Backend\Operations\ICalculations.cs" />
+    <Compile Include="src\Backend\Operations\IComparer.cs" />
+    <Compile Include="src\Backend\Operations\IMover.cs" />
     <Compile Include="src\Backend\Operations\Mover.cs" />
     <Compile Include="src\Backend\Handlers\ILifeCycleHandler.cs" />
     <Compile Include="src\Backend\Handlers\IRecordHandler.cs" />
     <Compile Include="src\Backend\Handlers\LifeCycleHandler.cs" />
     <Compile Include="src\Backend\Handlers\RecordHandler.cs" />
-    <Compile Include="src\Backend\Rules.cs" />
+    <Compile Include="src\Backend\RulesEngin.cs" />
     <Compile Include="src\Backend\Validator\IValidator.cs" />
     <Compile Include="src\Backend\Validator\Validator.cs" />
   </ItemGroup>
