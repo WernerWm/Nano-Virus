@@ -53,11 +53,6 @@
     <Compile Include="src\Backend\Filehandler\Filehandler.cs" />
     <Compile Include="src\Backend\Handlers\IPositionHandler.cs" />
     <Compile Include="src\Backend\Handlers\PositionHandler.cs" />
-    <Compile Include="src\Backend\Managers\LifeCycleManager.cs" />
-    <Compile Include="src\Backend\Managers\MainManager.cs" />
-    <Compile Include="src\Backend\Managers\OperationManager.cs" />
-    <Compile Include="src\Backend\Managers\RuleManager.cs" />
-    <Compile Include="src\Backend\Managers\ValidatorManager.cs" />
     <Compile Include="src\Backend\Operations\Calculations.cs" />
     <Compile Include="src\Backend\Operations\Comparer.cs" />
     <Compile Include="src\Backend\Operations\ICalculations.cs" />
