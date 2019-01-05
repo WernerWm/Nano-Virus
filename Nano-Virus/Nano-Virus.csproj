@@ -42,8 +42,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cell.cs" />
+    <Compile Include="FileHandler.cs" />
+    <Compile Include="Location.cs" />
+    <Compile Include="NanoVirus.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Session.cs" />
+    <Compile Include="Simulation.cs" />
+    <Compile Include="SpecialCell.cs" />
+    <Compile Include="Tree.cs" />
+    <Compile Include="Tumourus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
